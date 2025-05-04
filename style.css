@@ -612,6 +612,35 @@ body{
        flex-direction: column;
         gap: 80px;
      }
+     .tripmain-card{
+        position: inherit;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        gap: 10px;
+        width: 240px;
+        border: none;
+        box-shadow:
+        100px -50px 60px rgba(82, 120, 234, 0.1),
+        0px 10px 60px rgba(82, 120, 234, 0.1);
+        border-radius: 8px;
+    }
+
+    .tripchild-card{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 20px;
+        font-family: poppins;
+        box-shadow: 0px 3px 2px rgb(191, 197, 224);
+        padding: 10px;
+        border-radius: 10px;
+        position: inherit;
+        top: 140px;
+        left: 135px;
+        background-color: white;
+     }
  }
  .companys{
     display: flex;
